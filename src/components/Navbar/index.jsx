@@ -1,15 +1,9 @@
-const Navbar = () => {
-  const words = [
-    "Hola",
-    "Mundo",
-    "Esto es React"
-  ]
-
-  const list = words.map(word => <li>{word}</li>);
+function Navbar() {
 
   return (
     <div>
-      <ul>{list}</ul>
+      <p>Boletera</p>
+      <input placeholder="Busca tu evento favorito"></input>
     </div>
   );
 }
